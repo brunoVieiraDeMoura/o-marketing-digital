@@ -1,3 +1,15 @@
+.font-3-m-txt {
+  font: bold 1.125rem/1.35 "Noto Sans Tamil", sans-serif;
+  position: relative;
+  color: var(--cor-p0);
+}
+.font-3-p-txt {
+  font: 400 0.875rem/1.35 "Noto Sans Tamil", sans-serif;
+}
+.font-3-pp-txt {
+  font: 400 0.75rem/1.35 "Noto Sans Tamil", sans-serif;
+}
+
 ------------------------------------------------
 /*  -----------------FONTE ESTILO 1---------------- */
 /* ------------------------------------------------ */

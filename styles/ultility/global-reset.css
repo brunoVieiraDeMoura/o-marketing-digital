@@ -29,3 +29,13 @@ img {
   height: auto;
   display: block;
 }
+
+.detail-txt {
+  position: absolute;
+  content: "";
+  width: 7.2%;
+  border-radius: 4px;
+  height: 20px;
+  background: var(--cor-s1);
+  opacity: 0.3;
+}
