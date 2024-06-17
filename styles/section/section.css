@@ -1,22 +1,35 @@
 .section {
   width: 90%;
-  /* background: greenyellow; */
+  background: greenyellow;
   height: 68%;
 }
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 144px;
+  align-items: center;
+  gap: 48px;
+  height: 100%;
 
   /* background: green; */
 }
 .left-section {
-  /* background: green; */
+  background: green;
 }
+
 .right-section {
-  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
   position: relative;
   z-index: 2;
+}
+
+.right-section img {
+  width: 520px;
+  align-self: center;
+  min-width: 480px;
+  border-radius: 40px;
 }
 
 .frist-botton {
@@ -34,7 +47,7 @@
   width: 12px;
   height: 300px;
   background: var(--cor-2);
-  bottom: -40%;
+  bottom: -50%;
   right: 40%;
   content: "";
   z-index: -1;
